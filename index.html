@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navbar">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Product</a>
+            <a href="#" class="nav-link">Contact</a>
+            <button class="btn">Login</button>
+        </nav>
+        <ion-icon class="hamburger" id="hamburger" name="menu"></ion-icon>
+    </header>
+
+
+    <div class="wrapper">
+        <ion-icon class="icon-close" name="close-outline"></ion-icon>
+        <div class="form-box login">
+            <h2 class="form-title">Login</h2>
+            <form>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input class="input" type="text" required>
+                    <label class="label">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input class="input" type="password" required>
+                    <label class="label">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label class="remember-label"><input type="checkbox" class="checkbox">Remember Me</label>
+                    <a href="#" class="forget-password">Forget Password?</a>
+                </div>
+                <button type="submit" class="btn-submit">Submit</button>
+                <div>
+                    <p class="footer">Don't Have account let's <a href="#" class="login-link">register</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2 class="form-title">Register</h2>
+            <form>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="Person"></ion-icon>
+                    </span>
+                    <input class="input" type="text" required>
+                    <label class="label">Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input class="input" type="text" required>
+                    <label class="label">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input class="input" type="password" required>
+                    <label class="label">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label class="remember-label"><input type="checkbox" class="checkbox">i agree to the terms & condition </label>
+                </div>
+                <button type="submit" class="btn-submit">Register</button>
+                <div>
+                    <p class="footer">already Have account let's <a href="#" class="register-link">login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ionic icon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script><!-- my js -->
+</body>
+
+</html>
